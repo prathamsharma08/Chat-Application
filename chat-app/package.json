@@ -1,0 +1,30 @@
+{
+  "name": "pratham-chat",
+  "version": "1.0.0",
+  "description": "It is a Full Stack Chatting App. Uses Socket.io for real time communication and stores user details in encrypted format in Mongo DB Database. ## Tech Stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js",
+    "dev":"nodemon backend/server.js",
+    "server": "nodemon backend/server.js",
+    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
+  },
+  "keywords": [
+    "mern",
+    "chat-app"
+  ],
+  "author": "Pratham Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.22",
+    "nodemon": "^2.0.7",
+    "react-router-dom": "^6.22.3",
+    "socket.io": "^4.7.5"
+  }
+}
